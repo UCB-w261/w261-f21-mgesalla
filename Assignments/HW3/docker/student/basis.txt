@@ -1,0 +1,1 @@
+['times', 'age', 'worst', 'wisdom', 'best', 'foolishness']
