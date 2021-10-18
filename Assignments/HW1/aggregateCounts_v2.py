@@ -18,19 +18,15 @@ Instructions:
 
 # imports
 import sys
-
-
 ################# YOUR CODE HERE #################
+temp_word = ""
+temp_count = 0
 
-
-
-
-
-
-
-
-
-
-
-
+for line in sys.stdin:
+    word,count = line.split()  
+    if word == temp_word:
+        count = int(count) + int(temp_count)
+    temp_word = word
+    temp_count = count
+    print(temp_word,temp_count) 
 ################ (END) YOUR CODE #################

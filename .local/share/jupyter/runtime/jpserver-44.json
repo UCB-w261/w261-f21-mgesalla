@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 44,
+  "port": 8889,
+  "root_dir": "/home/personalrepow261",
+  "secure": false,
+  "sock": "",
+  "token": "",
+  "url": "http://docker.w261:8889/",
+  "version": "1.11.1"
+}

@@ -32,9 +32,12 @@ for line in sys.stdin:
     words = re.findall(r'[a-z]+', line.lower())
 
 ############ YOUR CODE HERE #########
+    
+    for word in words:
+        counts[word]+=1
 
-
-
+for key in sorted(counts):
+    print (key, counts[key])
 
 
 
